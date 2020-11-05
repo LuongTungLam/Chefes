@@ -28,7 +28,7 @@ public class UserController {
     @GetMapping("/")
     public String homepage(Model model){
         List<User> listUsers = userService.findAll();
-        model.addAttribute("listUsers",listUsers);
+        model.addAttribute("users",listUsers);
         return "view/home";
     }
 

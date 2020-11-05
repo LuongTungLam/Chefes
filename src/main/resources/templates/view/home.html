@@ -5,7 +5,6 @@
     <title>User Manager</title>
 </head>
 <body>
-<div th:include=""></div>
 <table border="1">
     <thead>
     <tr>
@@ -15,10 +14,10 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="user : ${listUsers}">
-        <td th:text="${user.id}"></td>
-        <td th:text="${user.name}"></td>
-        <td th:text="${user.email}"></td>
+    <tr th:each="user : ${users}">
+       <td th:text="${user.id}"></td>
+       <td th:text="${user.name}"></td>
+       <td th:text="${user.email}"></td>
     </tr>
     </tbody>
 </table>
