@@ -6,6 +6,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.Arrays;
+
 @SpringBootApplication
 public class ChefApplication implements CommandLineRunner {
 
@@ -21,3 +23,4 @@ public class ChefApplication implements CommandLineRunner {
 
     }
 }
+

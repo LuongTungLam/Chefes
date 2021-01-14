@@ -1,2 +1,4 @@
-package com.chefes.page.reponsitory;public interface UserPricingRepository {
+package com.chefes.page.reponsitory;
+
+public interface UserPricingRepository {
 }
